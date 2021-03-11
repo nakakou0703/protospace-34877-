@@ -54,7 +54,7 @@ class PrototypesController < ApplicationController
   end
 
   def user_login_required
-    unless logged_in?
+    unless user_signed_in?
       redirect_to user_session_path
     end
   end
