@@ -31,6 +31,7 @@
 - has_many : comments
 - belongs_to : user
 
+
 ## commentsテーブル
 
 | Column    | Type       | Options  |
